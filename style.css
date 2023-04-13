@@ -1,7 +1,31 @@
-header {
-    background-color: blue;
+.cabeçalho {
+    background-color: rgb(241, 93, 150);
+    color: black;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+.cabeçalho-imagem {
+    width: 15%;
+    height: 15%;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.cabeçalho-item {
+display: inline-block;
+font-size: 60px;
+padding: 0 0 0 30px;
+}
 
+.escola { 
+    background-color: rgb(7, 240, 248);
+    color: black;
+    font-size: 30px;
+    padding: 300px 250px;
+}
 
-
-
+.escola-titulo {
+    padding: 24px 0;
 }
